@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "mini-pokedex",
+    "slug": "mini-pokedex",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/images/pokeball.png",
+    "scheme": "minipokedex",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./app/assets/images/splash.png",
+        "backgroundImage": "./app/assets/images/splash.png",
+        "monochromeImage": "./app/assets/images/splash.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./app/assets/images/pokeball.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./app/assets/images/splash.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
