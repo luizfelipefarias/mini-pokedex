@@ -10,8 +10,8 @@ export const theme = {
     accent: '#CC0000', // Vermelho Principal (Pode ser usado para o Tipo Fogo ou outros destaques)
     
     // Cores de Texto e Componentes
-    text: '#EEEEEE', // CORRIGIDO: Texto Claro (Alto contraste com o background escuro)
-    textSecondary: '#AAAAAA', // NOVO: Texto Secundário (Para hints ou infos menos importantes)
+    text: '#EEEEEE', // CTexto Claro (Alto contraste com o background escuro)
+    textSecondary: '#AAAAAA', // Texto Secundário (Para hints ou infos menos importantes)
     card: '#1A1A1A', // Fundo de Card Escuro (Contraste suave com o background)
 
     // Cores de Status e Feedback (NOVO)
